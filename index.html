@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HOME PAGE</title>
+    <link rel="stylesheet" href="NEW.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="Playstation_Img/logo.png" class="logo">
+
+            <nav >
+                <ul class="hi" id="menuList">
+                    <li><a href="#">ULTIMATE GAMES</a></li>
+                    <li><a href="https://www.linkedin.com/in/priyansh-salian-6a74a621a">CONTACT</a></li>
+                    <li><a href="https://www.linkedin.com/in/priyansh-salian-6a74a621a">ABOUT</a></li>
+                    <li><a href="#">PLAY NOW</a></li>
+                </ul>
+            </nav>
+            <img src="Playstation_Img/menu.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h2>WELCOME TO<br>GAME ZONE</h2>
+                <h3>ULTIMATE PLACE TO 
+                    <br> CLOWN GAMES</h3>
+                <p>ENTER THE ARENA</p>
+                <h4>QUICKLY</h4>
+                <a style="text-decoration: none;" href="HomePage/index.html"><button type="button">  PLAY NOW <img src="Playstation_Img/arrow.png" alt=""></button></a>
+            </div>
+            <div class="col-2">
+                <img src="Playstation_Img/controller.png" alt="" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn">
+                    <img src="Playstation_Img/add.png" alt="">
+                    <p><small>PLAY</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="social-links">
+            <img src="Playstation_Img/fb.png" alt="">
+            <img src="Playstation_Img/tw.png" alt="">
+            <img src="Playstation_Img/ig.png" alt="">
+
+        </div>
+    </div>
+<script>
+    var menuList = document.getElementById("menuList");
+    menuList.style.maxHeight = "0px";
+    function togglemenu()
+    {
+        if(menuList.style.maxHeight=="0px")
+        {
+            menuList.style.maxHeight=="130px"
+        }
+        else
+        {
+            menuList.style.maxHeight=="0px";
+
+        }
+    }
+</script>
+
+</body>
+
+</html>

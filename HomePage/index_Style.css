@@ -1,0 +1,141 @@
+/* .content {
+  background: #ece9e6; /* fallback for old browsers 
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); 
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); 
+  background: url(/HomePage/img/christmas-abstract-golden-background-E3VX5UE.jpg);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-size: cover;
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+  width: 1200px;
+  height: 600px;
+} */
+body {
+  background-image: url("img/abstract-animation-neon-blue-frame-tunnel-backgrou-HHBXJVB.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto auto;
+  background-size: cover;
+  background-size: cover; 
+  background-position: center center;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04aa6d;
+}
+
+.cards_container {
+  overflow: hidden;
+  display: block;
+  color: #fff;
+
+  margin: auto;
+  width: 50%;
+
+  padding: 10px;
+}
+.card1:hover {
+  transform: translateY(-15px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+    0 24px 46px var(--box-shadow-color);
+}
+.h22{
+  text-align: right;
+}
+.card1 {
+  border-radius: 30px;
+  overflow: hidden;
+  padding-bottom: 5%;
+background-image: url(img/abstract-it-digital-technology-background-GGU7YQY.jpg);
+background-repeat: no-repeat;
+
+background-size: auto auto;
+background-size: cover;
+background-size: cover; 
+background-position: center center;
+
+  
+  
+
+
+  
+
+  
+
+}
+.play_now_button_padding {
+  padding-left: 40%;
+}
+.play_now_button {
+  width: 140px;
+  border: 0;
+  padding: 12px 10px;
+  outline: m=none;
+  color: #fff;
+
+  background: linear-gradient(to right, #ff3399 0%, #ff0000 100%);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: width 0.5s;
+  text-decoration: none;
+  align-self: center;
+  align-self: center;
+  text-align: right;
+}
+
+.game_header {
+  display: flex;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.game_para {
+  padding: 3%;
+}
+.game_img {
+  padding-right: 5%;
+}
